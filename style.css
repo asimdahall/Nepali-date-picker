@@ -1,0 +1,56 @@
+.nepali-date-container {
+  /* border: 1px solid red; */
+  display: none;
+  width: 300px;
+  height: 250px;
+  background-color: rgb(245, 245, 245);
+}
+.year-container {
+  height: 20%;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+.days {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.day-header {
+  display: flex;
+  margin: 5px 0px;
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+  justify-content: space-between;
+}
+.baar {
+  text-align: center;
+  width: 12%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+}
+.day {
+  width: 12%;
+  min-height: 20%;
+  cursor: pointer;
+  border: 1px solid black;
+  margin: 2px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day:hover,
+.active {
+  background-color: rgb(213, 255, 255);
+}
